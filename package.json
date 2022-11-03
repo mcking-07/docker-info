@@ -1,0 +1,29 @@
+{
+  "name": "docker-info",
+  "version": "0.1.0",
+  "description": "A simple tool which extracts and displays detailed info about a docker container's host.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcking-07/docker-info.git"
+  },
+  "keywords": [
+    "docker",
+    "info",
+    "container"
+  ],
+  "author": "mcking07",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcking-07/docker-info/issues"
+  },
+  "homepage": "https://github.com/mcking-07/docker-info#readme",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.18.2",
+    "os": "^0.1.2"
+  }
+}
